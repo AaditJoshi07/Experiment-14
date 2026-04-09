@@ -33,9 +33,5 @@ Sorting is essential for identifying trends, such as the most expensive items or
 
 ---
 
-### **Data Binning and Formatting**
-
-Data binning is a preprocessing technique that converts continuous numerical data into discrete categories by grouping values into predefined "bins." Using the `pd.cut()` function, data is sorted into mathematical intervals (e.g., Low, Medium, High) based on specific threshold values. This process simplifies complex datasets and highlights patterns that are less obvious in raw numbers. For this logic to work, the data must be properly formatted as numeric types (integers or floats) rather than strings; otherwise, the categorization will fail. Together with string normalization (like `.upper()`) and sorting, these techniques ensure the dataset is clean, consistent, and ready for statistical analysis or machine learning.
-
 ## **Conclusion**
 Through this experiment, I successfully implemented data binning to transform continuous numerical data into meaningful categories. I also practiced essential data cleaning techniques, such as type casting, string normalization, and sorting. These processes are fundamental in preparing a raw dataset for advanced exploratory data analysis (EDA) and machine learning modeling.
